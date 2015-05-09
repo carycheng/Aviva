@@ -1,4 +1,4 @@
-WWE Portal
+Aviva Portal
 ====
 
 Use it as a boilerplate to start your own apps.
@@ -12,9 +12,9 @@ Go!
 
 Download and run WWE:
 
-    git clone https://github.com/carycheng77/WWE.git
+    git clone https://github.com/carycheng77/Aviva.git
     
-    cd WWE
+    cd AvivaVault
     bundle install             # To install sinatra
     
     ruby app.rb                # To run the sample
@@ -22,6 +22,10 @@ Download and run WWE:
 
 Then open [http://localhost:4567/](http://localhost:4567/)
 
+OR
+
+Shotgun: [http://localhost:9393/]
+
 What's next?
 ============
-- Working on it
+- Auth0 Integrate
