@@ -906,63 +906,101 @@ input, select, textarea{
 	height: 40px !important; 
 }
 
-.dropdownColor{
+.image-Shift{
+	padding-top: 20px !important;
+	padding-left: 200px !important;
+}
+
+.background{
+	background-color: #FEE334 !important;
+}
+
+.button-Shift{
+	padding-right: 70px !important;
+	padding-bottom: 70px !important;
+	z-index: 11111111 !important;
+}
+
+.navbarColor{
+	background-color: #FFCC00 !important;
+	border-color: #FFCC00 !important;
+}
+
+.bodyColor{
+	background-color: #FFCC00 !important;
+}
+
+.color{
+	background-color: #FFCC00 !important;
+}
+
+.indexColor{
+	background-color: #FEE334 !important;
+}
+
+#img_container {
+    position:relative !important;
+    display:inline-block;
+    padding-left: 200px!important;
+    z-index: 0 !important;
+    text-align: center !important; 
+/* \   text-align:center;
+*//*    border:1px solid red;
+*/}
+
+.landingPageBack{
+	background-color: #EEEEEC !important;
+}
+
+.button {
+    position:absolute !important;
+    bottom: 270px !important;
+    left: 590px !important;
+    width: 250px !important;
+    height: 50px !important;
+}
+
+.buttonPosition{
+	padding-bottom: 200px !important;
+	z-index: 1000 !important;
+}
+
+.borderClass{
+	border-color: #FEE334 !important;
+}
+
+.signIn{
 	color: #FFFFFF !important;
-	background-color: #E3272A !important;
+	background-color: #428BCA !important;
+	border-color: #428BCA !important
 }
 
-.noUnderlines{
-	text-decoration: none !important;
+.iconPadding{
+	padding-top: 100px !important;
 }
 
-.footBackColor{
-	background-color: #000000 !important;
+.iconPaddingLeft{
+	padding-left: 25px !important;
 }
 
-.footerTopPadding{
-	padding-bottom: 300px !important;
+.importantPadding{
+	padding-right: 40px !important;
 }
 
-.requestLeftPadding{
-	padding-left: 8px !important; 
+.photoPadding{
+	padding-right: 60px !important;
 }
 
-.modalBackground{
-	background-color: #EAEAEA !important;
-	border: none !important;
+.sharePadding{
+	padding-right: 20px !important;
 }
 
-.btn-small {
-    padding: 5px 10px;
-    font-size: px;
-    line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
-    }
-
-
-.portalImage{
-	background-image: url("http://i.imgur.com/JRfGBL5.jpg") !important;
+.searchPadding{
+	padding-top: 150px !important;
+	padding-left: 600px !important;
 }
 
-.portalNoFooterPading{
-	padding: none !important
-}
-
-.embedPositioning{
-	padding-top: 50px !important;
-	padding-left: 50px !important;
-}
-
-.verifyPadding{
-	padding-top: 10px !important;
-}
-
-.verifyButton{
-	padding: none !important;
-}
-
-.welcome-Font{
-	font-size: 40px !important;
+.searchColor{
+	background-color: #FEE334 !important;
+	color: #0046AD !important;
 }
