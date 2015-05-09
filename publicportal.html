@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>My Aviva Vault</title>
+    <title>WWE Portal</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -31,22 +31,50 @@
     </noscript>
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
   </head>
-  <body class="background bodyColor indexColor">
+  <body class="homepage">
+        
+        <div class="portalImage">
+        <div class="embedPositioning">
+          <iframe src="https://app.box.com/embed_widget/s/hcgub6tewzeo6jwo36bkqp26amrx9w68?view=list&sort=name&direction=ASC&theme=gray" width="1330" height="700" frameborder="0"allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+         </div>
 
-    <div id="img_container" class="indexColor">
-      <img src="http://i72.photobucket.com/albums/i162/carycheng77/banner.jpg_zpsvlldrpoj.png" class="borderClass" width="100%" height="100%">
-    </img>
-      <div class="button-Shift buttonPosition">
-        <form action='/test' method='get'>
-<!--           <button type="submit" class="btn btn-primary btn-lg button">SIGN IN</button>
- -->          <input class="btn btn-primary btn-lg button signIn" type='submit' value='SIGN IN'>
-        </form>
       </div>
-    </div>
+
+     <div id="footer" class="portalNoFooterPading footBackColor">
+      <section class="container footerColor footBackColor">
+        <header class="major footBackColor">
+            <div id='name'>
+              
+            </div>
+          <span class="byline">This is your internal portal</span>
+        </header>
+        <ul class="icons">
+          <li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+          <li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+          <li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
+          <li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+        </ul>
+        <hr/>
+      </section>  
+    </div>  
+    
+    <script language="JavaScript">
+        function processForm()
+        {
+          var parameters = location.search.substring(1).split("&");
+          var temp = parameters[0].split("=");
+          l = unescape(temp[1]);
+          // alert(l); //Dialog with the text you put on the textbox
+          }
+          processForm();
+          var username = l;
+          var welcome = 'Welcome ';
+          var display = document.getElementById('name');
+          display.innerHTML = welcome + username;
+          display.style.fontSize = "50px";
+    </script
 
 
-    <script>
-      
     </script>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

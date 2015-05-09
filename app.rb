@@ -49,6 +49,10 @@ end
 #   # expect(collaboration.accessible_by.id).to eq('235248328')
 # end
 
+get '/test' do
+  File.new('views/landing_page.erb').readlines
+end 
+
 get '/' do
   @notes = Note.all :order => :id.desc
   @title = 'All Notes'
